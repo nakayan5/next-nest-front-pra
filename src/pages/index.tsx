@@ -1,7 +1,7 @@
-import React, { Suspense } from "react";
-import { Button } from "@nextui-org/react";
-import { useState } from "react";
-import { postClient } from "@/api/post";
+import React, { Suspense } from 'react';
+import { Button } from '@nextui-org/react';
+import { useState } from 'react';
+import { postClient } from '@/api/post';
 
 export const Home = () => {
   const [data] = useState(async () => {

@@ -1,6 +1,6 @@
-import { Post } from "@/types/post";
-import { AxiosResponse } from "axios";
-import { Repository, url } from "../repository";
+import { Post } from '@/types/post';
+import { AxiosResponse } from 'axios';
+import { Repository, url } from '../repository';
 
 export type TSignup = { name: string; email: string };
 
